@@ -5,6 +5,7 @@
 | 3122410191 | Phạm Tấn Khương |  https://svtankhuong.github.io/ |
 | 3122560089 | Hoàng Vũ | https://banvudangvietcode.github.io/hoangvu.github.io/ |
 | 3122410033 | Huỳnh Thanh Bình | https://hdthanhbinh.github.io/ |
+| 3120411167 | Nguyễn Minh Tú | https://portfolio-nminhtu0602s-projects.vercel.app/
 ## Kế Hoạch Dự Kiến ##
 https://docs.google.com/spreadsheets/d/1L-AklWNo1kzkOcfT-5RliilbtrmtIzZQ/edit?usp=sharing&ouid=101638428683519512812&rtpof=true&sd=true
 ## Phân Công Công Việc ##
