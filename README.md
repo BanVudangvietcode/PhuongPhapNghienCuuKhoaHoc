@@ -4,7 +4,8 @@ Phân loại cảm xúc (Sentiment Analysis) là một nhánh quan trọng trong
 
 2. Bộ dữ liệu VLSP 2018
 
-Năm 2016, Hội thảo Xử lý Ngôn ngữ và Tiếng nói Việt Nam (VLSP) đã tổ chức một cuộc thi về phân tích cảm xúc, cung cấp bộ dữ liệu chuẩn cho cộng đồng nghiên cứu. Bộ dữ liệu này bao gồm các đánh giá sản phẩm từ các trang thương mại điện tử, được gán nhãn cảm xúc tích cực, tiêu cực hoặc trung tính. Đây là nguồn dữ liệu quan trọng giúp thúc đẩy nghiên cứu và phát triển các mô hình phân loại cảm xúc cho tiếng Việt.
+Năm 2018, Hội thảo Xử lý Ngôn ngữ và Tiếng nói Việt Nam (VLSP) đã tổ chức một cuộc thi về phân tích cảm xúc, cung cấp bộ dữ liệu chuẩn cho cộng đồng nghiên cứu. Bộ dữ liệu này bao gồm các đánh giá sản phẩm từ các trang thương mại điện tử, được gán nhãn cảm xúc tích cực, tiêu cực hoặc trung tính. Đây là nguồn dữ liệu quan trọng giúp thúc đẩy nghiên cứu và phát triển các mô hình phân loại cảm xúc cho tiếng Việt.
+Đường link github: https://github.com/ds4v/absa-vlsp-2018
 
 3. Mô hình PhoBERT
 
