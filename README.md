@@ -2,7 +2,7 @@
 
 Phân loại cảm xúc (Sentiment Analysis) là một nhánh quan trọng trong Xử lý Ngôn ngữ Tự nhiên (NLP), tập trung vào việc xác định và phân loại cảm xúc hoặc thái độ trong văn bản. Đối với tiếng Việt, việc phân loại cảm xúc đối mặt với nhiều thách thức do đặc thù ngôn ngữ và thiếu hụt tài nguyên ngôn ngữ chất lượng cao.
 
-2. Bộ dữ liệu VLSP 2016(có thể sẽ là 2018 vì dataset không public)
+2. Bộ dữ liệu VLSP 2018
 
 Năm 2016, Hội thảo Xử lý Ngôn ngữ và Tiếng nói Việt Nam (VLSP) đã tổ chức một cuộc thi về phân tích cảm xúc, cung cấp bộ dữ liệu chuẩn cho cộng đồng nghiên cứu. Bộ dữ liệu này bao gồm các đánh giá sản phẩm từ các trang thương mại điện tử, được gán nhãn cảm xúc tích cực, tiêu cực hoặc trung tính. Đây là nguồn dữ liệu quan trọng giúp thúc đẩy nghiên cứu và phát triển các mô hình phân loại cảm xúc cho tiếng Việt.
 
