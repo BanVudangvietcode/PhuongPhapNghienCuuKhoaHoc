@@ -7,6 +7,7 @@ Phân loại cảm xúc (Sentiment Analysis) là một nhánh quan trọng trong
 Năm 2018, Hội thảo Xử lý Ngôn ngữ và Tiếng nói Việt Nam (VLSP) đã tổ chức một cuộc thi về phân tích cảm xúc, cung cấp bộ dữ liệu chuẩn cho cộng đồng nghiên cứu. Bộ dữ liệu này bao gồm các đánh giá sản phẩm từ các trang thương mại điện tử, được gán nhãn cảm xúc tích cực, tiêu cực hoặc trung tính. Đây là nguồn dữ liệu quan trọng giúp thúc đẩy nghiên cứu và phát triển các mô hình phân loại cảm xúc cho tiếng Việt.
 Đường link github: https://github.com/ds4v/absa-vlsp-2018
 Lĩnh vực khách sạn và nhà hàng 
+
 **3. Mô hình PhoBERT**
 
 PhoBERT là một mô hình ngôn ngữ tiền huấn luyện dựa trên kiến trúc Transformer, được tối ưu hóa cho tiếng Việt. Được phát triển dựa trên BERT, PhoBERT tận dụng dữ liệu tiếng Việt lớn để học các đặc trưng ngôn ngữ, giúp cải thiện hiệu suất trong các tác vụ NLP, bao gồm phân loại cảm xúc. Việc sử dụng PhoBERT đã chứng minh hiệu quả vượt trội so với các mô hình truyền thống trong nhiều nghiên cứu. 
