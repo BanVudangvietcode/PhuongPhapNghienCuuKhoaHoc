@@ -1,4 +1,5 @@
 **TỔNG QUAN VỀ DỰ ĐOÁN BỆNH TIM SỬ DỤNG MÁY HỌC**
+
 **1. Giới thiệu**
 Bệnh tim là một trong những nguyên nhân hàng đầu gây tử vong trên toàn thế giới. Việc chẩn đoán sớm và chính xác bệnh tim có ý nghĩa quan trọng trong việc điều trị và giảm nguy cơ biến chứng. Với sự phát triển của trí tuệ nhân tạo (AI) và học máy (ML), nhiều phương pháp hiện đại đã được áp dụng để hỗ trợ dự đoán bệnh tim một cách chính xác và hiệu quả hơn so với các phương pháp truyền thống.
 
