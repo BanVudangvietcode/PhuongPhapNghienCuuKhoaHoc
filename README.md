@@ -1,41 +1,23 @@
-**1. Giới thiệu về Phân loại Cảm xúc**
+**TỔNG QUAN VỀ DỰ ĐOÁN BỆNH TIM SỬ DỤNG MÁY HỌC**
+**1. Giới thiệu**
+Bệnh tim là một trong những nguyên nhân hàng đầu gây tử vong trên toàn thế giới. Việc chẩn đoán sớm và chính xác bệnh tim có ý nghĩa quan trọng trong việc điều trị và giảm nguy cơ biến chứng. Với sự phát triển của trí tuệ nhân tạo (AI) và học máy (ML), nhiều phương pháp hiện đại đã được áp dụng để hỗ trợ dự đoán bệnh tim một cách chính xác và hiệu quả hơn so với các phương pháp truyền thống.
 
-Phân loại cảm xúc (Sentiment Analysis) là một nhánh quan trọng trong Xử lý Ngôn ngữ Tự nhiên (NLP), tập trung vào việc xác định và phân loại cảm xúc hoặc thái độ trong văn bản. Đối với tiếng Việt, việc phân loại cảm xúc đối mặt với nhiều thách thức do đặc thù ngôn ngữ và thiếu hụt tài nguyên ngôn ngữ chất lượng cao.
+**2. Các phương pháp học máy trong dự đoán bệnh tim**
+Nhiều nghiên cứu đã sử dụng các thuật toán học máy để phân tích dữ liệu y tế và dự đoán nguy cơ mắc bệnh tim. Một số thuật toán phổ biến bao gồm:
 
-**2. Bộ dữ liệu VLSP 2018**
+K-Nearest Neighbors (KNN): Phân loại bệnh dựa trên dữ liệu của các bệnh nhân có đặc điểm tương tự.
+Hồi quy Logistic (Logistic Regression): Phân tích mối quan hệ giữa các yếu tố nguy cơ và khả năng mắc bệnh tim.
+Random Forest Classifier: Kết hợp nhiều cây quyết định để cải thiện độ chính xác dự đoán.
+**3. Quy trình xây dựng mô hình dự đoán**
+Một hệ thống dự đoán bệnh tim bằng học máy thường bao gồm các bước:
 
-Năm 2018, Hội thảo Xử lý Ngôn ngữ và Tiếng nói Việt Nam (VLSP) đã tổ chức một cuộc thi về phân tích cảm xúc, cung cấp bộ dữ liệu chuẩn cho cộng đồng nghiên cứu. Bộ dữ liệu này bao gồm các đánh giá sản phẩm từ các trang thương mại điện tử, được gán nhãn cảm xúc tích cực, tiêu cực hoặc trung tính. Đây là nguồn dữ liệu quan trọng giúp thúc đẩy nghiên cứu và phát triển các mô hình phân loại cảm xúc cho tiếng Việt.
-Đường link github: https://github.com/ds4v/absa-vlsp-2018
-Lĩnh vực khách sạn và nhà hàng 
+Thu thập dữ liệu: Dữ liệu về bệnh nhân bao gồm tuổi, giới tính, huyết áp, mức cholesterol, chỉ số đường huyết, v.v.
+Xử lý dữ liệu: Làm sạch dữ liệu, xử lý giá trị bị thiếu, chuẩn hóa dữ liệu để tăng độ chính xác.
+Huấn luyện mô hình: Sử dụng thuật toán học máy để học từ dữ liệu đã có.
+Đánh giá mô hình: So sánh độ chính xác, độ nhạy (sensitivity) và độ đặc hiệu (specificity) của các mô hình để chọn mô hình tốt nhất.
+Bộ dữ liệu từ UCI
+**4. Kết quả và độ chính xác**
+Các nghiên cứu cho thấy mô hình học máy có thể đạt độ chính xác cao (trên 85%), trong đó KNN, hồi quy logistic và Random Forest thường là những thuật toán có hiệu suất tốt. Việc kết hợp nhiều mô hình khác nhau có thể giúp cải thiện độ chính xác và giảm sai sót trong chẩn đoán.
 
-**3. Mô hình PhoBERT**
-
-PhoBERT là một mô hình ngôn ngữ tiền huấn luyện dựa trên kiến trúc Transformer, được tối ưu hóa cho tiếng Việt. Được phát triển dựa trên BERT, PhoBERT tận dụng dữ liệu tiếng Việt lớn để học các đặc trưng ngôn ngữ, giúp cải thiện hiệu suất trong các tác vụ NLP, bao gồm phân loại cảm xúc. Việc sử dụng PhoBERT đã chứng minh hiệu quả vượt trội so với các mô hình truyền thống trong nhiều nghiên cứu. 
-JOS.HUEUNI.EDU.VN
-
-**4. Ứng dụng PhoBERT trong Phân loại Cảm xúc**
-
-Việc áp dụng PhoBERT trong phân loại cảm xúc tiếng Việt đã thu hút sự quan tâm của nhiều nhà nghiên cứu. Các bước triển khai thường bao gồm tiền xử lý văn bản, phân đoạn từ, mã hóa bằng tokenizer của PhoBERT và huấn luyện mô hình trên bộ dữ liệu đã gán nhãn. Một số nghiên cứu đã chỉ ra rằng PhoBERT cải thiện đáng kể độ chính xác trong phân loại cảm xúc so với các phương pháp trước đó.
-
-**5. Cụ thể, bài toán chúng tôi thực hiện là Phân tích Cảm xúc theo Danh mục Khía cạnh (Aspect Category Sentiment Analysis - ACSA), bao gồm hai nhiệm vụ con:**
-
-A. Phát hiện Danh mục Khía cạnh (Aspect Category Detection - ACD)
-Xác định thực thể (E - Entity) và thuộc tính (A - Attribute) được biểu đạt trong một câu đánh giá.
-
-E và A được chọn từ tập các thực thể và thuộc tính được định nghĩa trước.
-Ví dụ:
-Thực thể: "ROOMS" (phòng), "HOTEL" (khách sạn)
-Thuộc tính: "PRICE" (giá cả), "QUALITY" (chất lượng)
-B. Phân loại Cảm xúc theo Khía cạnh (Sentiment Polarity Classification - SPC)
-Mỗi cặp E#A được gán một nhãn cảm xúc:
-
-"Positive" (tích cực)
-"Negative" (tiêu cực)
-"Neutral" (trung lập)
-Ví dụ:
-
-Câu tiếng Việt: "Phòng rộng rãi, thoáng mát, nhân viên phục vụ tận tình."
-Dịch sang tiếng Anh: "The room is spacious, airy, staff is enthusiastic."
-Nhận diện cảm xúc theo khía cạnh:
-{cate: "ROOMS#DESIGN", pol: "positive"}
-{cate: "SERVICE#GENERAL", pol: "positive"}
+**5. Kết luận và hướng phát triển**
+Ứng dụng học máy trong dự đoán bệnh tim mang lại nhiều lợi ích, giúp bác sĩ chẩn đoán nhanh chóng và chính xác hơn. Tuy nhiên, vẫn còn nhiều thách thức như chất lượng dữ liệu, khả năng mở rộng và tính giải thích của mô hình. Trong tương lai, việc kết hợp học sâu (Deep Learning), dữ liệu lớn (Big Data) và các thuật toán tối ưu hóa có thể giúp nâng cao hiệu suất của các hệ thống dự đoán bệnh tim.
