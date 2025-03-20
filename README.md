@@ -8,6 +8,7 @@ Nhiều nghiên cứu đã sử dụng các thuật toán học máy để phân
 K-Nearest Neighbors (KNN): Phân loại bệnh dựa trên dữ liệu của các bệnh nhân có đặc điểm tương tự.
 Hồi quy Logistic (Logistic Regression): Phân tích mối quan hệ giữa các yếu tố nguy cơ và khả năng mắc bệnh tim.
 Random Forest Classifier: Kết hợp nhiều cây quyết định để cải thiện độ chính xác dự đoán.
+
 **3. Quy trình xây dựng mô hình dự đoán**
 Một hệ thống dự đoán bệnh tim bằng học máy thường bao gồm các bước:
 
@@ -16,6 +17,7 @@ Xử lý dữ liệu: Làm sạch dữ liệu, xử lý giá trị bị thiếu,
 Huấn luyện mô hình: Sử dụng thuật toán học máy để học từ dữ liệu đã có.
 Đánh giá mô hình: So sánh độ chính xác, độ nhạy (sensitivity) và độ đặc hiệu (specificity) của các mô hình để chọn mô hình tốt nhất.
 Bộ dữ liệu từ UCI
+
 **4. Kết quả và độ chính xác**
 Các nghiên cứu cho thấy mô hình học máy có thể đạt độ chính xác cao (trên 85%), trong đó KNN, hồi quy logistic và Random Forest thường là những thuật toán có hiệu suất tốt. Việc kết hợp nhiều mô hình khác nhau có thể giúp cải thiện độ chính xác và giảm sai sót trong chẩn đoán.
 
