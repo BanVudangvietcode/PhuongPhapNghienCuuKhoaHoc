@@ -24,3 +24,6 @@ Các nghiên cứu cho thấy mô hình học máy có thể đạt độ chính
 
 **5. Kết luận và hướng phát triển**
 Ứng dụng học máy trong dự đoán bệnh tim mang lại nhiều lợi ích, giúp bác sĩ chẩn đoán nhanh chóng và chính xác hơn. Tuy nhiên, vẫn còn nhiều thách thức như chất lượng dữ liệu, khả năng mở rộng và tính giải thích của mô hình. Trong tương lai, việc kết hợp học sâu (Deep Learning), dữ liệu lớn (Big Data) và các thuật toán tối ưu hóa có thể giúp nâng cao hiệu suất của các hệ thống dự đoán bệnh tim.
+
+
+Github tham khảo : https://github.com/g-shreekant/Heart-Disease-Prediction-using-Machine-Learning/tree/master
