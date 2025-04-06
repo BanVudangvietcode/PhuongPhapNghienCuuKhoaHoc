@@ -1,4 +1,4 @@
-# Tên Đề Tài Là Phân loại Cảm xúc Tiếng Việt sử dụng PhoBERT #
+# Tên Đề Tài Là Dự Đoán Bệnh Tim Bằng Máy Học #
 ## Thông Tin Liên Hệ ##
 | MSSV | Họ Và Tên  | link website giới thiệu bản thân  |
 |--------|--------|--------|
@@ -11,15 +11,13 @@ https://docs.google.com/spreadsheets/d/1L-AklWNo1kzkOcfT-5RliilbtrmtIzZQ/edit?us
 ## Phân Công Công Việc ##
 | STT | Công việc | Người phụ trách | Ghi chú |
 |-----|----------|----------------|---------|
-| 1 | Lập kế hoạch & phân công | **Vũ (Leader)** | Họp kickoff, xác định mục tiêu & phân công nhiệm vụ. |
-| 2 | Thu thập dữ liệu | **Bình** | Thu thập dữ liệu từ AIVIVN, Viblo, website, … |
-| 3 | Tiền xử lý dữ liệu & Tách từ | **Khương** | Làm sạch dữ liệu, sử dụng underthesea/VnCoreNLP. |
-| 4 | Tokenization & Chuẩn bị input cho PhoBERT | **Khương** | Định dạng dữ liệu phù hợp với PhoBERT. |
-| 5 | Xây dựng mô hình & Thêm Classification Head | **Tú** | Load mô hình PhoBERT và thêm classification head. |
-| 6 | Fine-tuning & Huấn luyện mô hình | **Tú & Bình** | Điều chỉnh hyperparameter, huấn luyện mô hình. |
-| 7 | Đánh giá & Phân tích kết quả | **Bình** | Tính accuracy, F1-score, phân tích ma trận nhầm lẫn. |
-| 8 | Triển khai mô hình & Xây dựng API | **Vũ & Tú** | Tạo API (Flask/FastAPI) hoặc giao diện demo. |
-| 9 | Viết báo cáo & Chuẩn bị thuyết trình | **Tất cả** | Tổng hợp kết quả, viết báo cáo và chuẩn bị slide. |
+| 1 | Làm EDA | **Vũ & Khương** | |
+| 2 | Tiền xử lý dữ liệu | **Tú & Bình** | |
+| 3 | Xây dựng mô hình | **tất cả** | |
+| 4 | Làm đề cương nghiên cứu khoa học | **tất cả** | |
+| 5 | Huấn luyện mô hình | **Vũ & Khương** |  |
+| 6 | Tối ưu mô hình | **Tú & Bình** | |
+| 7 | Làm luận văn | **tất cả** |  |
 
 ## Ghi chú
 - Họp nhóm định kỳ vào cuối mỗi giai đoạn để cập nhật tiến độ.
