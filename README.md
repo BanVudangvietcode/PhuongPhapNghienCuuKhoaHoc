@@ -23,10 +23,6 @@ K-Nearest Neighbors (KNN): Phân loại bệnh dựa trên dữ liệu của cá
 Hồi quy Logistic (Logistic Regression): Phân tích mối quan hệ giữa các yếu tố nguy cơ và khả năng mắc bệnh tim.
 Random Forest Classifier: Kết hợp nhiều cây quyết định để cải thiện độ chính xác dự đoán.
 
-Dưới đây là nội dung phần **"Kết quả đạt được"** đã được chỉnh sửa lại rõ ràng, phù hợp để bạn **dán trực tiếp vào file `.md`**:
-
----
-
 ## 3. Kết quả đạt được
 
 ### 🎯 Hiệu năng mô hình
