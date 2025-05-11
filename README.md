@@ -107,3 +107,4 @@ Dựa trên phân tích tầm quan trọng từ mô hình Random Forest:
 Mô hình đạt được **hiệu năng rất cao và ổn định**, với độ chính xác vượt 90% và các chỉ số đánh giá đồng đều. Các đặc trưng đầu vào quan trọng phần lớn thuộc về **yếu tố sức khỏe định lượng**, hỗ trợ tốt cho việc dự đoán bệnh tim một cách chính xác và có cơ sở.
 
 Github tham khảo : https://github.com/g-shreekant/Heart-Disease-Prediction-using-Machine-Learning/tree/master
+link google drive để chạy 3 giải thuật: https://drive.google.com/drive/folders/14oVJdCe7swG-t19P5qqexoDkJRrGjLkG?usp=sharing
