@@ -1,0 +1,55 @@
+#Navigation_horizontal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#Navigation_horizontal li {
+    float: right;
+    border-left: 2px solid white;
+}
+
+#Navigation_horizontal li:hover {
+    background-color: yellow;
+    border-left: 2px solid yellow;
+}
+
+#Navigation_horizontal li:hover a {
+    color: black;
+}
+
+#Navigation_horizontal li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+#Introduction {
+    clear: both;
+    margin-top: 50px;
+}
+#table_members {
+    width: 100%;
+    border-collapse: collapse;
+}
+#table_members th, #table_members td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+#table_members tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#table_members td a.link_github{
+    text-decoration: none ;
+    color: darkviolet;
+}
+#table_members td a.link_github:hover{
+    color: red;
+}
