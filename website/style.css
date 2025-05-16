@@ -30,26 +30,43 @@
     padding: 8px;
     color: white;
 }
+
 #Introduction {
     clear: both;
     margin-top: 50px;
 }
+
+#Introduction .text {
+    font-weight: bolder;
+    color:orange;
+}
+
+#Introduction .text .emphasized {
+    text-decoration: underline;
+    font-weight: normal;
+    color: black;
+}
+
 #table_members {
     width: 100%;
     border-collapse: collapse;
 }
+
 #table_members th, #table_members td {
     border: 1px solid #dddddd;
     padding: 8px;
     text-align: center;
 }
+
 #table_members tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
 #table_members td a.link_github{
     text-decoration: none ;
     color: darkviolet;
 }
+
 #table_members td a.link_github:hover{
     color: red;
 }
