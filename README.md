@@ -17,7 +17,7 @@ Sinh viên: **Hoàng Vũ, Huỳnh Thanh Bình, Nguyễn Minh Tú, Phạm Tấn K
 **Bệnh tim mạch** là một trong những nguyên nhân gây tử vong hàng đầu trên toàn thế giới. Việc chẩn đoán sớm và chính xác đóng vai trò quan trọng trong việc điều trị và ngăn ngừa biến chứng. Tuy nhiên, các phương pháp chẩn đoán truyền thống thường đòi hỏi thời gian, chi phí và chuyên môn cao. Trước thực trạng đó, nghiên cứu này được thực hiện nhằm xây dựng một mô hình dự đoán bệnh tim dựa trên các kỹ thuật học máy, giúp hỗ trợ bác sĩ và người bệnh trong quá trình ra quyết định.
 
 
-Mục tiêu chính của nghiên cứu là ứng dụng **kỹ thuật Ensemble Learning** – cụ thể là **phương pháp Voting Ensemble** kết hợp giữa mô hình SVM và Logistic Regression – để nâng cao độ chính xác dự đoán so với việc sử dụng từng mô hình đơn lẻ. Dữ liệu huấn luyện được tiền xử lý bằng các kỹ thuật chuẩn hóa và mã hóa phù hợp, sau đó huấn luyện hai mô hình riêng biệt và kết hợp dự đoán đầu ra bằng cách trung bình hóa kết quả.
+Mục tiêu chính của nghiên cứu là ứng dụng **kỹ thuật Ensemble Learning** – cụ thể là **phương pháp Voting Ensemble** kết hợp giữa mô hình Random Forest và Logistic Regression – để nâng cao độ chính xác dự đoán so với việc sử dụng từng mô hình đơn lẻ. Dữ liệu huấn luyện được tiền xử lý bằng các kỹ thuật chuẩn hóa và mã hóa phù hợp, sau đó huấn luyện hai mô hình riêng biệt và kết hợp dự đoán đầu ra bằng cách trung bình hóa kết quả.
 
 
 Kết quả thử nghiệm cho thấy mô hình kết hợp đạt độ chính xác cao hơn so với từng mô hình thành phần, đồng thời giao diện ứng dụng trực quan được xây dựng bằng Tkinter giúp dễ dàng sử dụng. Nghiên cứu kết luận rằng phương pháp Ensemble Learning có tiềm năng ứng dụng thực tiễn trong lĩnh vực y tế, đặc biệt là trong hỗ trợ chẩn đoán bệnh tim.
